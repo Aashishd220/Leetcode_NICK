@@ -2,4 +2,19 @@
     Taking sum from previous rows.
     Do Again.
     
-2.
+2. 217. Contains Duplicate
+    Easy Peasy!!!
+  
+3. 206. Reverse Linked List
+    prev, curr, next. 
+    Easy think!!
+    
+4. 167. Two Sum II 
+    Easy Peasy!!
+    
+5. 234. Palindrome Linked List
+    Find the middle(fast!=null && fast.next!=null && fast.next.next!=null)
+    from middle.next reverse the linked list
+    and compare.
+    
+6. 
