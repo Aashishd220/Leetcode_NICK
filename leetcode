@@ -17,4 +17,12 @@
     from middle.next reverse the linked list
     and compare.
     
-6. 
+6. 590. N-ary Tree Postorder Traversal
+    Input: root = [1,null,3,2,4,null,5,6]
+    Output: [5,6,3,2,4,1]
+    
+   pollLast use to get the last element from stack
+   and addFirst used to add the element in the last in the linkedList.
+   
+   
+7.
