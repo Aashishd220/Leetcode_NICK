@@ -25,4 +25,9 @@
    and addFirst used to add the element in the last in the linkedList.
    
    
-7.
+7. 94. Binary Tree Inorder Traversal
+    Inorder- Left Root Right
+    use 2 loops - first to check the stack size and curr node
+                - second to reach to left most node.
+                
+            
