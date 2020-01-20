@@ -31,3 +31,26 @@
                 - second to reach to left most node.
                 
             
+8. 328. Odd Even Linked List
+    Input: 2->1->3->5->6->4->7->NULL
+    Output: 2->3->6->7->1->5->4->NULL
+    
+   assign odd=head and even=head.next;
+   Run while(even!=null && even.next!=null)
+   Think about the logic!! 
+   Not very difficult.
+   
+ 9. 709. To Lower Case
+ Input: "Hello"
+Output: "hello"
+Easy peasy
+65-90 'A' 97-122 'a'
+  ch=(char)(ch+32);
+  
+  
+10.  7. Reverse Integer
+    take rev as long
+    return flag==true?(int)-rev:(int)rev;
+    
+ 11. 9. Palindrome Number
+ Easy Peasy
