@@ -63,3 +63,27 @@ Easy peasy
     You can use stack and think about the answer.
     or use 2 pointers.
     Do it again with both methods.
+    
+ 13. 917. Reverse Only Letters
+ Input: "ab-cd"
+Output: "dc-ba"
+    Use stack!! Easy
+    
+    
+ 14. 141. Linked List Cycle
+    fast!=null && fast.next!=null
+    for even and odd number of nodes respec.
+    
+ 15. 344. Reverse String
+    Input: ["h","e","l","l","o"]
+    Output: ["o","l","l","e","h"]
+    
+    Easy Peasy!!!
+    
+    
+16.125. Valid Palindrome
+Input: "A man, a plan, a canal: Panama"
+Output: true
+
+2 solutions. Think and implement both.
+Easy.
