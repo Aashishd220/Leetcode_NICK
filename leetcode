@@ -54,3 +54,12 @@ Easy peasy
     
  11. 9. Palindrome Number
  Easy Peasy
+ 
+ 12. 844. Backspace String Compare
+    Input: S = "ab#c", T = "ad#c"
+    Output: true
+    Explanation: Both S and T become "ac".
+    
+    You can use stack and think about the answer.
+    or use 2 pointers.
+    Do it again with both methods.
