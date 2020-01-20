@@ -87,3 +87,14 @@ Output: true
 
 2 solutions. Think and implement both.
 Easy.
+
+
+17. 876. Middle of the Linked List
+    easy peasy!!!
+    
+18. 21. Merge Two Sorted Lists
+Input: 1->2->4, 1->3->4
+Output: 1->1->2->3->4->4
+Easy Peasy!!! use merge sort
+
+19.
