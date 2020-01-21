@@ -132,3 +132,8 @@ Use Priority Queue as minHeap. First, add the elements in the minHeap, now minHe
 when you remove the elements from the minHeap the output will be 1,2,2,3,3,4,6,7,8
 Now think about the logic 
 do it again!!!!!
+
+24. 771. Jewels and Stones
+Input: J = "aA", S = "aAAbbbb"
+Output: 3
+Easy Peasy!!!
