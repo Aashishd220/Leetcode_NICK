@@ -113,5 +113,11 @@ We then go to room 2, and pick up key 3.
 We then go to room 3.  Since we were able to go to every room, we return true.
 
 DFS Problem- Use Stack. Do it once again.
+
+21. 977. Squares of a Sorted Array
+    Input: [-4,-1,0,3,10]
+    Output: [0,1,9,16,100]
+    
+    Do it in N time using 2 pointers.
     
     
