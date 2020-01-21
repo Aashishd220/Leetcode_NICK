@@ -137,3 +137,13 @@ do it again!!!!!
 Input: J = "aA", S = "aAAbbbb"
 Output: 3
 Easy Peasy!!!
+
+25. 24. Swap Nodes in Pairs
+    Given 1->2->3->4, you should return the list as 2->1->4->3.
+    Idea is to use two nodes, first and second.
+    and use curr node which is always the previous node of the first node.
+    and run while curr.next!=null && curr.next.next!=null
+    
+   Do it again!!!
+   
+26. 
