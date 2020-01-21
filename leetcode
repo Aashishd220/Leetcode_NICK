@@ -120,4 +120,15 @@ DFS Problem- Use Stack. Do it once again.
     
     Do it in N time using 2 pointers.
     
+ 22. 16. 3Sum Closest
+    Do it again.
     
+ 23.846. Hand of Straights 
+ Input: hand = [1,2,3,6,2,3,4,7,8], W = 3
+Output: true
+Explanation: Alice's hand can be rearranged as [1,2,3],[2,3,4],[6,7,8].
+
+Use Priority Queue as minHeap. First, add the elements in the minHeap, now minHeap will be  [1,2,3,6,2,3,4,7,8] and 
+when you remove the elements from the minHeap the output will be 1,2,2,3,3,4,6,7,8
+Now think about the logic 
+do it again!!!!!
