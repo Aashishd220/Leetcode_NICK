@@ -146,4 +146,10 @@ Easy Peasy!!!
     
    Do it again!!!
    
-26. 
+26. 86. Partition List
+Input: head = 1->4->3->2->5->2, x = 3
+Output: 1->2->2->4->3->5
+
+Easy Peasy!!!
+
+27. 
