@@ -1,0 +1,18 @@
+1. Preorder
+  Simple use stack and check for right node first 
+  
+2. Inorder
+    to go left check for current node and only add that node in the queue.
+    
+3. PostOrder
+  Use two stacks, add the root in the first stack, poll that and put the left and right node in the second stack.
+  
+  
+4. Level Order
+  use queue simple..
+  
+5. Level Order leetcode
+  take the queue length and add the element according to the queue length.
+  
+  
+6.
