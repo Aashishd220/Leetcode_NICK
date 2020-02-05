@@ -1,0 +1,66 @@
+1046. Last Stone Weight
+We have a collection of rocks, each rock has a positive integer weight.
+
+Each turn, we choose the two heaviest rocks and smash them together.  Suppose the stones have weights x and y with x <= y.  The result of this smash is:
+
+If x == y, both stones are totally destroyed;
+If x != y, the stone of weight x is totally destroyed, and the stone of weight y has new weight y-x.
+At the end, there is at most 1 stone left.  Return the weight of this stone (or 0 if there are no stones left.)
+
+Input: [2,7,4,1,8,1]
+Output: 1
+Explanation: 
+We combine 7 and 8 to get 1 so the array converts to [2,4,1,1,1] then,
+we combine 2 and 4 to get 2 so the array converts to [2,1,1,1] then,
+we combine 2 and 1 to get 1 so the array converts to [1,1,1] then,
+we combine 1 and 1 to get 0 so the array converts to [1] then that's the value of last stone.
+--------------------------------
+Soln: Since we have to take biggest element every time, so we can use priority queue.
+
+class Solution {
+    public int lastStoneWeight(int[] stones) {
+        //priority queue by default is minHeap in java, so added - at the start
+        PriorityQueue<Integer> maxHeap=new PriorityQueue<>();
+        for(int i=0;i<stones.length;i++){
+            maxHeap.add(-stones[i]);
+        }            System.out.println(maxHeap);
+
+       while(maxHeap.size()>1){
+           int stone1=maxHeap.remove();
+           int stone2=maxHeap.remove();
+           maxHeap.add(-(stone1-stone2));
+            System.out.println(maxHeap);
+       }
+        return maxHeap.size()==0?0:maxHeap.poll();
+    }
+}
+------------------------------------------
+------------------------------------------
+
+2. 938. Range Sum of BST
+Input: root = [10,5,15,3,7,null,18], L = 7, R = 15
+Output: 32
+------------------------------------------
+Soln. use both recursion and iteration.
+Easy with both.
+
+------------------------------------------
+------------------------------------------
+3.
+Write a program to find the node at which the intersection of two singly linked lists begins.
+
+For example, the following two linked lists:
+
+Soln. Find the length of both the list and get the difference in length of both the list, run the larger list for the 
+differnce and then compare both the nodes.
+
+-------------------------------------------------
+-------------------------------------------------
+
+4.Reverse Vowels of a String
+Input: "hello"
+Output: "holle"
+
+soln. we can use two pointers and first we can add all the vowels in a set.
+
+5.
